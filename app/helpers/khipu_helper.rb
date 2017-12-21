@@ -1,0 +1,2 @@
+module KhipuHelper
+end

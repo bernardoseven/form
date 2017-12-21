@@ -89,7 +89,12 @@
     //Get var bla = $('#txt_name').val();
     //Set $('#txt_name').val(bla);
     $(".numbers3").change(function(){
-      alert("texto");
+      var number = $(".numbers3").val();
+      if (number % 100000 === 0) {
+        alert("Es un numero");
+      }
+      //var x = 100000;
+      //$(".numbers3").val(x);
     });
 
 });
