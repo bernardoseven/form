@@ -16,6 +16,7 @@
         <td><%= number.number %></td>
         <td><%= number.number2 %></td>
         <td><%= number.number3 %></td>
+        <td><%= number.created_at %></td>
         <td><%= link_to 'Show', number %></td>
         <td><%= link_to 'Edit', edit_number_path(number) %></td>
         <td><%= link_to 'Destroy', number, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -27,3 +28,4 @@
 <br>
 
 <%= link_to 'New Number', new_number_path %>
+<%= link_to "Pagar", pay_path %>
